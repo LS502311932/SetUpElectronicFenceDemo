@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BD46B0DA2CEBD3A82A74B5 /* libPods-ElectronicFenceDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600A06C4D374E97E8BD5AE5A /* libPods-ElectronicFenceDemo.a */; };
+		10FFCF2A98A324C33075F3CB /* libPods-ElectronicFenceDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C47BD09238CB4438B1099487 /* libPods-ElectronicFenceDemoUITests.a */; };
+		4BEC78E62282C5B800717C81 /* AnimationViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC78E52282C5B800717C81 /* AnimationViewMenu.m */; };
+		4BF18759228118EE00FBB448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF18758228118EE00FBB448 /* AppDelegate.m */; };
+		4BF1875C228118EE00FBB448 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1875B228118EE00FBB448 /* ViewController.m */; };
+		4BF1875F228118EE00FBB448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF1875D228118EE00FBB448 /* Main.storyboard */; };
+		4BF18761228118EF00FBB448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF18760228118EF00FBB448 /* Assets.xcassets */; };
+		4BF18764228118EF00FBB448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF18762228118EF00FBB448 /* LaunchScreen.storyboard */; };
+		4BF18767228118EF00FBB448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF18766228118EF00FBB448 /* main.m */; };
+		4BF18771228118EF00FBB448 /* ElectronicFenceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF18770228118EF00FBB448 /* ElectronicFenceDemoTests.m */; };
+		4BF1877C228118EF00FBB448 /* ElectronicFenceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1877B228118EF00FBB448 /* ElectronicFenceDemoUITests.m */; };
+		4BF2DBE9228418CE00620166 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2DBE8228418CE00620166 /* CustomAnnotationView.m */; };
+		4BF2DBEC2284193600620166 /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2DBEB2284193600620166 /* CustomCalloutView.m */; };
+		4BF2DBEF22841ABA00620166 /* PointFenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2DBED22841ABA00620166 /* PointFenceView.m */; };
+		4BF2DBF6228420D200620166 /* AddOrDeleteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2DBF5228420D200620166 /* AddOrDeleteModel.m */; };
+		4BF2DBF92284213E00620166 /* AMapTipAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF2DBF72284213E00620166 /* AMapTipAnnotation.m */; };
+		BB0D10A224E36FBB81ECF1B7 /* libPods-ElectronicFenceDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34EC18AF977FCB1929EFA35 /* libPods-ElectronicFenceDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF1876D228118EF00FBB448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF1874C228118EE00FBB448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF18753228118EE00FBB448;
+			remoteInfo = ElectronicFenceDemo;
+		};
+		4BF18778228118EF00FBB448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF1874C228118EE00FBB448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF18753228118EE00FBB448;
+			remoteInfo = ElectronicFenceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A7E53C5A87C7B90086518F2 /* Pods-ElectronicFenceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicFenceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicFenceDemo/Pods-ElectronicFenceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2F0A84671E2CEF9B915A7E0D /* Pods-ElectronicFenceDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicFenceDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicFenceDemoUITests/Pods-ElectronicFenceDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46085E288A04C0E263C935DF /* Pods-ElectronicFenceDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicFenceDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicFenceDemoUITests/Pods-ElectronicFenceDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4BEC78E42282C5B800717C81 /* AnimationViewMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewMenu.h; sourceTree = "<group>"; };
+		4BEC78E52282C5B800717C81 /* AnimationViewMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewMenu.m; sourceTree = "<group>"; };
+		4BF18754228118EE00FBB448 /* ElectronicFenceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectronicFenceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF18757228118EE00FBB448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BF18758228118EE00FBB448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BF1875A228118EE00FBB448 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BF1875B228118EE00FBB448 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BF1875E228118EE00FBB448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BF18760228118EF00FBB448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF18763228118EF00FBB448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BF18765228118EF00FBB448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF18766228118EF00FBB448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BF1876C228118EF00FBB448 /* ElectronicFenceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectronicFenceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF18770228118EF00FBB448 /* ElectronicFenceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectronicFenceDemoTests.m; sourceTree = "<group>"; };
+		4BF18772228118EF00FBB448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF18777228118EF00FBB448 /* ElectronicFenceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectronicFenceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF1877B228118EF00FBB448 /* ElectronicFenceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectronicFenceDemoUITests.m; sourceTree = "<group>"; };
+		4BF1877D228118EF00FBB448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF18789228175B200FBB448 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4BF2DBE7228418CE00620166 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		4BF2DBE8228418CE00620166 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		4BF2DBEA2284193500620166 /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
+		4BF2DBEB2284193600620166 /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
+		4BF2DBED22841ABA00620166 /* PointFenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointFenceView.m; sourceTree = "<group>"; };
+		4BF2DBEE22841ABA00620166 /* PointFenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointFenceView.h; sourceTree = "<group>"; };
+		4BF2DBF4228420D200620166 /* AddOrDeleteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddOrDeleteModel.h; sourceTree = "<group>"; };
+		4BF2DBF5228420D200620166 /* AddOrDeleteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddOrDeleteModel.m; sourceTree = "<group>"; };
+		4BF2DBF72284213E00620166 /* AMapTipAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapTipAnnotation.m; sourceTree = "<group>"; };
+		4BF2DBF82284213E00620166 /* AMapTipAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapTipAnnotation.h; sourceTree = "<group>"; };
+		552BF2A542CA13ACA0E3595D /* Pods-ElectronicFenceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicFenceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicFenceDemo/Pods-ElectronicFenceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		600A06C4D374E97E8BD5AE5A /* libPods-ElectronicFenceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectronicFenceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C349D1CE9DC6AF7B3B353D7C /* Pods-ElectronicFenceDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicFenceDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicFenceDemoTests/Pods-ElectronicFenceDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C47BD09238CB4438B1099487 /* libPods-ElectronicFenceDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectronicFenceDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D437012A2333AEC1B61E70BE /* Pods-ElectronicFenceDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicFenceDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicFenceDemoTests/Pods-ElectronicFenceDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F34EC18AF977FCB1929EFA35 /* libPods-ElectronicFenceDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectronicFenceDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF18751228118EE00FBB448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BD46B0DA2CEBD3A82A74B5 /* libPods-ElectronicFenceDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF18769228118EF00FBB448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0D10A224E36FBB81ECF1B7 /* libPods-ElectronicFenceDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF18774228118EF00FBB448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FFCF2A98A324C33075F3CB /* libPods-ElectronicFenceDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F689FA62AEB776A8274057 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600A06C4D374E97E8BD5AE5A /* libPods-ElectronicFenceDemo.a */,
+				F34EC18AF977FCB1929EFA35 /* libPods-ElectronicFenceDemoTests.a */,
+				C47BD09238CB4438B1099487 /* libPods-ElectronicFenceDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BEAD307228A9FA500372096 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BEAD308228A9FD500372096 /* Image */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4BEAD308228A9FD500372096 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4BEC78E32282C58700717C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BF2DBE7228418CE00620166 /* CustomAnnotationView.h */,
+				4BF2DBE8228418CE00620166 /* CustomAnnotationView.m */,
+				4BEC78E42282C5B800717C81 /* AnimationViewMenu.h */,
+				4BEC78E52282C5B800717C81 /* AnimationViewMenu.m */,
+				4BF2DBEA2284193500620166 /* CustomCalloutView.h */,
+				4BF2DBEB2284193600620166 /* CustomCalloutView.m */,
+				4BF2DBEE22841ABA00620166 /* PointFenceView.h */,
+				4BF2DBED22841ABA00620166 /* PointFenceView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BF1874B228118EE00FBB448 = {
+			isa = PBXGroup;
+			children = (
+				4BF18756228118EE00FBB448 /* ElectronicFenceDemo */,
+				4BF1876F228118EF00FBB448 /* ElectronicFenceDemoTests */,
+				4BF1877A228118EF00FBB448 /* ElectronicFenceDemoUITests */,
+				4BF18755228118EE00FBB448 /* Products */,
+				FD1C3AD11D612F87BE340F8D /* Pods */,
+				10F689FA62AEB776A8274057 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF18755228118EE00FBB448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF18754228118EE00FBB448 /* ElectronicFenceDemo.app */,
+				4BF1876C228118EF00FBB448 /* ElectronicFenceDemoTests.xctest */,
+				4BF18777228118EF00FBB448 /* ElectronicFenceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF18756228118EE00FBB448 /* ElectronicFenceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4BEAD307228A9FA500372096 /* Resources */,
+				4BF2DBF022841FA100620166 /* Model */,
+				4BEC78E32282C58700717C81 /* View */,
+				4BF18757228118EE00FBB448 /* AppDelegate.h */,
+				4BF18758228118EE00FBB448 /* AppDelegate.m */,
+				4BF1875A228118EE00FBB448 /* ViewController.h */,
+				4BF1875B228118EE00FBB448 /* ViewController.m */,
+				4BF1875D228118EE00FBB448 /* Main.storyboard */,
+				4BF18789228175B200FBB448 /* PrefixHeader.pch */,
+				4BF18760228118EF00FBB448 /* Assets.xcassets */,
+				4BF18762228118EF00FBB448 /* LaunchScreen.storyboard */,
+				4BF18765228118EF00FBB448 /* Info.plist */,
+				4BF18766228118EF00FBB448 /* main.m */,
+			);
+			path = ElectronicFenceDemo;
+			sourceTree = "<group>";
+		};
+		4BF1876F228118EF00FBB448 /* ElectronicFenceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF18770228118EF00FBB448 /* ElectronicFenceDemoTests.m */,
+				4BF18772228118EF00FBB448 /* Info.plist */,
+			);
+			path = ElectronicFenceDemoTests;
+			sourceTree = "<group>";
+		};
+		4BF1877A228118EF00FBB448 /* ElectronicFenceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BF1877B228118EF00FBB448 /* ElectronicFenceDemoUITests.m */,
+				4BF1877D228118EF00FBB448 /* Info.plist */,
+			);
+			path = ElectronicFenceDemoUITests;
+			sourceTree = "<group>";
+		};
+		4BF2DBF022841FA100620166 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BF2DBF4228420D200620166 /* AddOrDeleteModel.h */,
+				4BF2DBF5228420D200620166 /* AddOrDeleteModel.m */,
+				4BF2DBF82284213E00620166 /* AMapTipAnnotation.h */,
+				4BF2DBF72284213E00620166 /* AMapTipAnnotation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD1C3AD11D612F87BE340F8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				552BF2A542CA13ACA0E3595D /* Pods-ElectronicFenceDemo.debug.xcconfig */,
+				1A7E53C5A87C7B90086518F2 /* Pods-ElectronicFenceDemo.release.xcconfig */,
+				C349D1CE9DC6AF7B3B353D7C /* Pods-ElectronicFenceDemoTests.debug.xcconfig */,
+				D437012A2333AEC1B61E70BE /* Pods-ElectronicFenceDemoTests.release.xcconfig */,
+				2F0A84671E2CEF9B915A7E0D /* Pods-ElectronicFenceDemoUITests.debug.xcconfig */,
+				46085E288A04C0E263C935DF /* Pods-ElectronicFenceDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF18753228118EE00FBB448 /* ElectronicFenceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF18780228118EF00FBB448 /* Build configuration list for PBXNativeTarget "ElectronicFenceDemo" */;
+			buildPhases = (
+				BF40886651C9007D63993DDD /* [CP] Check Pods Manifest.lock */,
+				4BF18750228118EE00FBB448 /* Sources */,
+				4BF18751228118EE00FBB448 /* Frameworks */,
+				4BF18752228118EE00FBB448 /* Resources */,
+				F523BDB78B291FD5100D759F /* [CP] Embed Pods Frameworks */,
+				3975CC6DDD63D8738BAF2A34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectronicFenceDemo;
+			productName = ElectronicFenceDemo;
+			productReference = 4BF18754228118EE00FBB448 /* ElectronicFenceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BF1876B228118EF00FBB448 /* ElectronicFenceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF18783228118EF00FBB448 /* Build configuration list for PBXNativeTarget "ElectronicFenceDemoTests" */;
+			buildPhases = (
+				B532AEFD861117088655349F /* [CP] Check Pods Manifest.lock */,
+				4BF18768228118EF00FBB448 /* Sources */,
+				4BF18769228118EF00FBB448 /* Frameworks */,
+				4BF1876A228118EF00FBB448 /* Resources */,
+				BEA10698D5FCA8D52383B64F /* [CP] Embed Pods Frameworks */,
+				E3FE749B7A36DABAD598E579 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF1876E228118EF00FBB448 /* PBXTargetDependency */,
+			);
+			name = ElectronicFenceDemoTests;
+			productName = ElectronicFenceDemoTests;
+			productReference = 4BF1876C228118EF00FBB448 /* ElectronicFenceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BF18776228118EF00FBB448 /* ElectronicFenceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF18786228118EF00FBB448 /* Build configuration list for PBXNativeTarget "ElectronicFenceDemoUITests" */;
+			buildPhases = (
+				35E3A662320AFA4137AEB7B9 /* [CP] Check Pods Manifest.lock */,
+				4BF18773228118EF00FBB448 /* Sources */,
+				4BF18774228118EF00FBB448 /* Frameworks */,
+				4BF18775228118EF00FBB448 /* Resources */,
+				0865DF022A3DA308E6CD33C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF18779228118EF00FBB448 /* PBXTargetDependency */,
+			);
+			name = ElectronicFenceDemoUITests;
+			productName = ElectronicFenceDemoUITests;
+			productReference = 4BF18777228118EF00FBB448 /* ElectronicFenceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF1874C228118EE00FBB448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "刘帅";
+				TargetAttributes = {
+					4BF18753228118EE00FBB448 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					4BF1876B228118EF00FBB448 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4BF18753228118EE00FBB448;
+					};
+					4BF18776228118EF00FBB448 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4BF18753228118EE00FBB448;
+					};
+				};
+			};
+			buildConfigurationList = 4BF1874F228118EE00FBB448 /* Build configuration list for PBXProject "ElectronicFenceDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF1874B228118EE00FBB448;
+			productRefGroup = 4BF18755228118EE00FBB448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF18753228118EE00FBB448 /* ElectronicFenceDemo */,
+				4BF1876B228118EF00FBB448 /* ElectronicFenceDemoTests */,
+				4BF18776228118EF00FBB448 /* ElectronicFenceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF18752228118EE00FBB448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF18764228118EF00FBB448 /* LaunchScreen.storyboard in Resources */,
+				4BF18761228118EF00FBB448 /* Assets.xcassets in Resources */,
+				4BF1875F228118EE00FBB448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF1876A228118EF00FBB448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF18775228118EF00FBB448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0865DF022A3DA308E6CD33C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicFenceDemoUITests/Pods-ElectronicFenceDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E3A662320AFA4137AEB7B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3975CC6DDD63D8738BAF2A34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicFenceDemo/Pods-ElectronicFenceDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B532AEFD861117088655349F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA10698D5FCA8D52383B64F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicFenceDemoTests/Pods-ElectronicFenceDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF40886651C9007D63993DDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FE749B7A36DABAD598E579 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicFenceDemoTests/Pods-ElectronicFenceDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F523BDB78B291FD5100D759F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicFenceDemo/Pods-ElectronicFenceDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF18750228118EE00FBB448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF2DBF92284213E00620166 /* AMapTipAnnotation.m in Sources */,
+				4BF2DBEC2284193600620166 /* CustomCalloutView.m in Sources */,
+				4BF1875C228118EE00FBB448 /* ViewController.m in Sources */,
+				4BF2DBEF22841ABA00620166 /* PointFenceView.m in Sources */,
+				4BF2DBF6228420D200620166 /* AddOrDeleteModel.m in Sources */,
+				4BF18767228118EF00FBB448 /* main.m in Sources */,
+				4BF2DBE9228418CE00620166 /* CustomAnnotationView.m in Sources */,
+				4BEC78E62282C5B800717C81 /* AnimationViewMenu.m in Sources */,
+				4BF18759228118EE00FBB448 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF18768228118EF00FBB448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF18771228118EF00FBB448 /* ElectronicFenceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF18773228118EF00FBB448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF1877C228118EF00FBB448 /* ElectronicFenceDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF1876E228118EF00FBB448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF18753228118EE00FBB448 /* ElectronicFenceDemo */;
+			targetProxy = 4BF1876D228118EF00FBB448 /* PBXContainerItemProxy */;
+		};
+		4BF18779228118EF00FBB448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF18753228118EE00FBB448 /* ElectronicFenceDemo */;
+			targetProxy = 4BF18778228118EF00FBB448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BF1875D228118EE00FBB448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF1875E228118EE00FBB448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BF18762228118EF00FBB448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF18763228118EF00FBB448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF1877E228118EF00FBB448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BF1877F228118EF00FBB448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF18781228118EF00FBB448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552BF2A542CA13ACA0E3595D /* Pods-ElectronicFenceDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNNAY68ZJK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ElectronicFenceDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = ElectronicFenceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiKuang.yushuwan.ElectronicFenceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF18782228118EF00FBB448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7E53C5A87C7B90086518F2 /* Pods-ElectronicFenceDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNNAY68ZJK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ElectronicFenceDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = ElectronicFenceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiKuang.yushuwan.ElectronicFenceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BF18784228118EF00FBB448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C349D1CE9DC6AF7B3B353D7C /* Pods-ElectronicFenceDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNNAY68ZJK;
+				INFOPLIST_FILE = ElectronicFenceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiKuang.yushuwan.ElectronicFenceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectronicFenceDemo.app/ElectronicFenceDemo";
+			};
+			name = Debug;
+		};
+		4BF18785228118EF00FBB448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D437012A2333AEC1B61E70BE /* Pods-ElectronicFenceDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNNAY68ZJK;
+				INFOPLIST_FILE = ElectronicFenceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiKuang.yushuwan.ElectronicFenceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElectronicFenceDemo.app/ElectronicFenceDemo";
+			};
+			name = Release;
+		};
+		4BF18787228118EF00FBB448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0A84671E2CEF9B915A7E0D /* Pods-ElectronicFenceDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNNAY68ZJK;
+				INFOPLIST_FILE = ElectronicFenceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiKuang.yushuwan.ElectronicFenceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectronicFenceDemo;
+			};
+			name = Debug;
+		};
+		4BF18788228118EF00FBB448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46085E288A04C0E263C935DF /* Pods-ElectronicFenceDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNNAY68ZJK;
+				INFOPLIST_FILE = ElectronicFenceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeiKuang.yushuwan.ElectronicFenceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ElectronicFenceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF1874F228118EE00FBB448 /* Build configuration list for PBXProject "ElectronicFenceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF1877E228118EF00FBB448 /* Debug */,
+				4BF1877F228118EF00FBB448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF18780228118EF00FBB448 /* Build configuration list for PBXNativeTarget "ElectronicFenceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF18781228118EF00FBB448 /* Debug */,
+				4BF18782228118EF00FBB448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF18783228118EF00FBB448 /* Build configuration list for PBXNativeTarget "ElectronicFenceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF18784228118EF00FBB448 /* Debug */,
+				4BF18785228118EF00FBB448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF18786228118EF00FBB448 /* Build configuration list for PBXNativeTarget "ElectronicFenceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF18787228118EF00FBB448 /* Debug */,
+				4BF18788228118EF00FBB448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF1874C228118EE00FBB448 /* Project object */;
+}
