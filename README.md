@@ -1,3 +1,4 @@
 # SetUpElectronicFenceDemo
-ElectronicFenceDemo
-clone 下代码后 执行 pod update --verbose --no-repo-update 即可
+ clone SetUpElectronicFenceDemo 到电脑上
+ cd /Users/liushuai/SetUpElectronicFenceDemo（cd 到对应目录）
+ 执行 pod update --verbose --no-repo-update 即可
